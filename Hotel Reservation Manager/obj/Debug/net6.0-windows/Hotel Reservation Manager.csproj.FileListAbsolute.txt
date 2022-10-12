@@ -1,0 +1,18 @@
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\bin\Debug\net6.0-windows\Hotel Reservation Manager.exe
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\bin\Debug\net6.0-windows\Hotel Reservation Manager.deps.json
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\bin\Debug\net6.0-windows\Hotel Reservation Manager.runtimeconfig.json
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\bin\Debug\net6.0-windows\Hotel Reservation Manager.dll
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\bin\Debug\net6.0-windows\Hotel Reservation Manager.pdb
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel_Reservation_Manager.LoginScreen.resources
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel_Reservation_Manager.Properties.Resources.resources
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.AssemblyInfo.cs
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.dll
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\refint\Hotel Reservation Manager.dll
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.pdb
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\Hotel Reservation Manager.genruntimeconfig.cache
+C:\Users\User\source\repos\Hotel Reservation Manager\Hotel Reservation Manager\obj\Debug\net6.0-windows\ref\Hotel Reservation Manager.dll
