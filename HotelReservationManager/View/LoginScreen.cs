@@ -10,23 +10,19 @@ using System.Windows.Forms;
 
 namespace HotelReservationManager.View
 {
-    public partial class MainView : Form
+    public partial class LoginScreen : Form
     {
-        public MainView()
+        public LoginScreen()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void MainViewLoginButton_Click(object sender, EventArgs e)
-        {
-            LoginScreen f2 = new LoginScreen();          
+            MainView f2 = new MainView();
             f2.Show();
-            this.Hide();
+
+            this.Close();
         }
     }
 }

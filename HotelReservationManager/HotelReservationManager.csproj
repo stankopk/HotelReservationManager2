@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LoginScreen.Designer.cs">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MainView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +68,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="View\LoginScreen.resx">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="project2-hotel-reservations-manager.docx" />
     <None Include="project2-hotel-reservations-manager.pdf" />
     <None Include="Properties\Settings.settings">
@@ -81,6 +94,18 @@
   <ItemGroup>
     <Folder Include="Controller\" />
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotelbackgorund.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-nathan-cowley-2440856.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_MzL95bCDkBp81_A5W2Wggg-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
