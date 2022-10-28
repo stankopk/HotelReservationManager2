@@ -60,6 +60,12 @@
     <Compile Include="View\MainView.Designer.cs">
       <DependentUpon>MainView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\RegisterScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RegisterScreen.Designer.cs">
+      <DependentUpon>RegisterScreen.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\MainView.resx">
       <DependentUpon>MainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RegisterScreen.resx">
+      <DependentUpon>RegisterScreen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="project2-hotel-reservations-manager.docx" />
     <None Include="project2-hotel-reservations-manager.pdf" />
@@ -106,6 +115,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hotelbackgorund1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-nathan-cowley-24408561.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

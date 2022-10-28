@@ -28,35 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LogoPictureBox2 = new System.Windows.Forms.PictureBox();
-            this.LogoPictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LoginScreenLogo2 = new System.Windows.Forms.PictureBox();
+            this.LoginScreenLogo1 = new System.Windows.Forms.PictureBox();
             this.LoginScreenRegisterButton = new System.Windows.Forms.Button();
             this.LoginScreenReturnButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox1)).BeginInit();
+            this.LoginScreenLoginButton = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // LogoPictureBox2
+            // LoginScreenLogo2
             // 
-            this.LogoPictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.LogoPictureBox2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
-            this.LogoPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LogoPictureBox2.Location = new System.Drawing.Point(75, 96);
-            this.LogoPictureBox2.Name = "LogoPictureBox2";
-            this.LogoPictureBox2.Size = new System.Drawing.Size(274, 102);
-            this.LogoPictureBox2.TabIndex = 3;
-            this.LogoPictureBox2.TabStop = false;
+            this.LoginScreenLogo2.BackColor = System.Drawing.Color.Transparent;
+            this.LoginScreenLogo2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
+            this.LoginScreenLogo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LoginScreenLogo2.Location = new System.Drawing.Point(75, 96);
+            this.LoginScreenLogo2.Name = "LoginScreenLogo2";
+            this.LoginScreenLogo2.Size = new System.Drawing.Size(274, 102);
+            this.LoginScreenLogo2.TabIndex = 3;
+            this.LoginScreenLogo2.TabStop = false;
             // 
-            // LogoPictureBox1
+            // LoginScreenLogo1
             // 
-            this.LogoPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.LogoPictureBox1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
-            this.LogoPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LogoPictureBox1.Location = new System.Drawing.Point(91, 12);
-            this.LogoPictureBox1.Name = "LogoPictureBox1";
-            this.LogoPictureBox1.Size = new System.Drawing.Size(284, 151);
-            this.LogoPictureBox1.TabIndex = 2;
-            this.LogoPictureBox1.TabStop = false;
+            this.LoginScreenLogo1.BackColor = System.Drawing.Color.Transparent;
+            this.LoginScreenLogo1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
+            this.LoginScreenLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LoginScreenLogo1.Location = new System.Drawing.Point(91, 12);
+            this.LoginScreenLogo1.Name = "LoginScreenLogo1";
+            this.LoginScreenLogo1.Size = new System.Drawing.Size(284, 151);
+            this.LoginScreenLogo1.TabIndex = 2;
+            this.LoginScreenLogo1.TabStop = false;
             // 
             // LoginScreenRegisterButton
             // 
@@ -69,7 +76,7 @@
             this.LoginScreenRegisterButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginScreenRegisterButton.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginScreenRegisterButton.ForeColor = System.Drawing.Color.Orange;
-            this.LoginScreenRegisterButton.Location = new System.Drawing.Point(141, 370);
+            this.LoginScreenRegisterButton.Location = new System.Drawing.Point(141, 391);
             this.LoginScreenRegisterButton.Name = "LoginScreenRegisterButton";
             this.LoginScreenRegisterButton.Size = new System.Drawing.Size(167, 56);
             this.LoginScreenRegisterButton.TabIndex = 4;
@@ -87,13 +94,75 @@
             this.LoginScreenReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoginScreenReturnButton.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginScreenReturnButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.LoginScreenReturnButton.Location = new System.Drawing.Point(141, 444);
+            this.LoginScreenReturnButton.Location = new System.Drawing.Point(141, 453);
             this.LoginScreenReturnButton.Name = "LoginScreenReturnButton";
             this.LoginScreenReturnButton.Size = new System.Drawing.Size(167, 56);
             this.LoginScreenReturnButton.TabIndex = 5;
             this.LoginScreenReturnButton.Text = "RETURN";
             this.LoginScreenReturnButton.UseVisualStyleBackColor = false;
             this.LoginScreenReturnButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // LoginScreenLoginButton
+            // 
+            this.LoginScreenLoginButton.BackColor = System.Drawing.Color.Transparent;
+            this.LoginScreenLoginButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.LoginScreenLoginButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginScreenLoginButton.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.LoginScreenLoginButton.FlatAppearance.BorderSize = 4;
+            this.LoginScreenLoginButton.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.LoginScreenLoginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginScreenLoginButton.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoginScreenLoginButton.ForeColor = System.Drawing.Color.SteelBlue;
+            this.LoginScreenLoginButton.Location = new System.Drawing.Point(141, 329);
+            this.LoginScreenLoginButton.Name = "LoginScreenLoginButton";
+            this.LoginScreenLoginButton.Size = new System.Drawing.Size(167, 56);
+            this.LoginScreenLoginButton.TabIndex = 6;
+            this.LoginScreenLoginButton.Text = "LOGIN";
+            this.LoginScreenLoginButton.UseVisualStyleBackColor = false;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.Orange;
+            this.richTextBox1.Location = new System.Drawing.Point(120, 270);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(255, 46);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = "";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.richTextBox2.Location = new System.Drawing.Point(120, 218);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(255, 46);
+            this.richTextBox2.TabIndex = 8;
+            this.richTextBox2.Text = "";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackgroundImage = global::HotelReservationManager.Properties.Resources.download_removebg_preview;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Location = new System.Drawing.Point(75, 218);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 46);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.White;
+            this.pictureBox2.BackgroundImage = global::HotelReservationManager.Properties.Resources.download_removebg_preview__2_;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.Location = new System.Drawing.Point(75, 270);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(48, 46);
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
             // 
             // LoginScreen
             // 
@@ -102,23 +171,35 @@
             this.BackgroundImage = global::HotelReservationManager.Properties.Resources.pexels_nathan_cowley_2440856;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(472, 512);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.LoginScreenLoginButton);
             this.Controls.Add(this.LoginScreenReturnButton);
             this.Controls.Add(this.LoginScreenRegisterButton);
-            this.Controls.Add(this.LogoPictureBox2);
-            this.Controls.Add(this.LogoPictureBox1);
+            this.Controls.Add(this.LoginScreenLogo2);
+            this.Controls.Add(this.LoginScreenLogo1);
             this.Name = "LoginScreen";
             this.Text = "LoginScreen";
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox LogoPictureBox2;
-        private System.Windows.Forms.PictureBox LogoPictureBox1;
+        private System.Windows.Forms.PictureBox LoginScreenLogo2;
+        private System.Windows.Forms.PictureBox LoginScreenLogo1;
         private System.Windows.Forms.Button LoginScreenRegisterButton;
         private System.Windows.Forms.Button LoginScreenReturnButton;
+        private System.Windows.Forms.Button LoginScreenLoginButton;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

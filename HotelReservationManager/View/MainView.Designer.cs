@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.LogoPictureBox1 = new System.Windows.Forms.PictureBox();
-            this.LogoPictureBox2 = new System.Windows.Forms.PictureBox();
+            this.MainViewLogo1 = new System.Windows.Forms.PictureBox();
+            this.MainViewLogo2 = new System.Windows.Forms.PictureBox();
             this.MainViewLoginButton = new System.Windows.Forms.Button();
             this.MainViewRegisterButton = new System.Windows.Forms.Button();
             this.MainViewExitButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainViewLogo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainViewLogo2)).BeginInit();
             this.SuspendLayout();
             // 
-            // LogoPictureBox1
+            // MainViewLogo1
             // 
-            this.LogoPictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.LogoPictureBox1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
-            this.LogoPictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LogoPictureBox1.Location = new System.Drawing.Point(91, 12);
-            this.LogoPictureBox1.Name = "LogoPictureBox1";
-            this.LogoPictureBox1.Size = new System.Drawing.Size(284, 151);
-            this.LogoPictureBox1.TabIndex = 0;
-            this.LogoPictureBox1.TabStop = false;
+            this.MainViewLogo1.BackColor = System.Drawing.Color.Transparent;
+            this.MainViewLogo1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
+            this.MainViewLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MainViewLogo1.Location = new System.Drawing.Point(91, 12);
+            this.MainViewLogo1.Name = "MainViewLogo1";
+            this.MainViewLogo1.Size = new System.Drawing.Size(284, 151);
+            this.MainViewLogo1.TabIndex = 0;
+            this.MainViewLogo1.TabStop = false;
             // 
-            // LogoPictureBox2
+            // MainViewLogo2
             // 
-            this.LogoPictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.LogoPictureBox2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
-            this.LogoPictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LogoPictureBox2.Location = new System.Drawing.Point(75, 96);
-            this.LogoPictureBox2.Name = "LogoPictureBox2";
-            this.LogoPictureBox2.Size = new System.Drawing.Size(274, 102);
-            this.LogoPictureBox2.TabIndex = 1;
-            this.LogoPictureBox2.TabStop = false;
+            this.MainViewLogo2.BackColor = System.Drawing.Color.Transparent;
+            this.MainViewLogo2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
+            this.MainViewLogo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.MainViewLogo2.Location = new System.Drawing.Point(75, 96);
+            this.MainViewLogo2.Name = "MainViewLogo2";
+            this.MainViewLogo2.Size = new System.Drawing.Size(274, 102);
+            this.MainViewLogo2.TabIndex = 1;
+            this.MainViewLogo2.TabStop = false;
             // 
             // MainViewLoginButton
             // 
@@ -125,20 +125,20 @@
             this.Controls.Add(this.MainViewExitButton);
             this.Controls.Add(this.MainViewRegisterButton);
             this.Controls.Add(this.MainViewLoginButton);
-            this.Controls.Add(this.LogoPictureBox2);
-            this.Controls.Add(this.LogoPictureBox1);
+            this.Controls.Add(this.MainViewLogo2);
+            this.Controls.Add(this.MainViewLogo1);
             this.Name = "MainView";
             this.Text = "MainView";
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainViewLogo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MainViewLogo2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox LogoPictureBox1;
-        private System.Windows.Forms.PictureBox LogoPictureBox2;
+        private System.Windows.Forms.PictureBox MainViewLogo1;
+        private System.Windows.Forms.PictureBox MainViewLogo2;
         private System.Windows.Forms.Button MainViewLoginButton;
         private System.Windows.Forms.Button MainViewRegisterButton;
         private System.Windows.Forms.Button MainViewExitButton;

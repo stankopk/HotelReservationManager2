@@ -73,9 +73,39 @@ namespace HotelReservationManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hotelbackgorund {
             get {
                 object obj = ResourceManager.GetObject("hotelbackgorund", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hotelbackgorund1 {
+            get {
+                object obj = ResourceManager.GetObject("hotelbackgorund1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +126,16 @@ namespace HotelReservationManager.Properties {
         internal static System.Drawing.Bitmap pexels_nathan_cowley_2440856 {
             get {
                 object obj = ResourceManager.GetObject("pexels-nathan-cowley-2440856", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_nathan_cowley_24408561 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-nathan-cowley-24408561", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
