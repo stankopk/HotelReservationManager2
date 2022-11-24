@@ -128,5 +128,8 @@
   <ItemGroup>
     <None Include="Resources\pexels-nathan-cowley-24408561.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-nathan-cowley-2440856111.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -182,6 +182,7 @@
             this.Controls.Add(this.LoginScreenLogo1);
             this.Name = "LoginScreen";
             this.Text = "LoginScreen";
+            this.Load += new System.EventHandler(this.LoginScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

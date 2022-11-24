@@ -139,5 +139,25 @@ namespace HotelReservationManager.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_nathan_cowley_2440856111 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-nathan-cowley-2440856111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_nathan_cowley_24408562 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-nathan-cowley-24408562", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

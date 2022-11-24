@@ -124,6 +124,12 @@
   <data name="hotelbackgorund" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hotelbackgorund.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pexels-nathan-cowley-24408562" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-nathan-cowley-2440856.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-nathan-cowley-24408561" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-nathan-cowley-24408561.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hotelbackgorund1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hotelbackgorund1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,7 +145,7 @@
   <data name="pexels-nathan-cowley-2440856" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pexels-nathan-cowley-2440856.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pexels-nathan-cowley-24408561" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pexels-nathan-cowley-24408561.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pexels-nathan-cowley-2440856111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-nathan-cowley-2440856111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
