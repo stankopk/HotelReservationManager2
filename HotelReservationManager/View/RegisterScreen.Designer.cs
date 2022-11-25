@@ -64,7 +64,7 @@
             this.MainViewLogo2.BackColor = System.Drawing.Color.Transparent;
             this.MainViewLogo2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
             this.MainViewLogo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.MainViewLogo2.Location = new System.Drawing.Point(56, 145);
+            this.MainViewLogo2.Location = new System.Drawing.Point(53, 152);
             this.MainViewLogo2.Name = "MainViewLogo2";
             this.MainViewLogo2.Size = new System.Drawing.Size(274, 102);
             this.MainViewLogo2.TabIndex = 7;
