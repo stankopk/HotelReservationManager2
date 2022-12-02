@@ -64,9 +64,10 @@
             this.MainViewLogo2.BackColor = System.Drawing.Color.Transparent;
             this.MainViewLogo2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
             this.MainViewLogo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.MainViewLogo2.Location = new System.Drawing.Point(53, 152);
+            this.MainViewLogo2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainViewLogo2.Location = new System.Drawing.Point(98, 133);
             this.MainViewLogo2.Name = "MainViewLogo2";
-            this.MainViewLogo2.Size = new System.Drawing.Size(274, 102);
+            this.MainViewLogo2.Size = new System.Drawing.Size(274, 112);
             this.MainViewLogo2.TabIndex = 7;
             this.MainViewLogo2.TabStop = false;
             // 
@@ -75,9 +76,10 @@
             this.LoginScreenLogo1.BackColor = System.Drawing.Color.Transparent;
             this.LoginScreenLogo1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
             this.LoginScreenLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.LoginScreenLogo1.Location = new System.Drawing.Point(112, 26);
+            this.LoginScreenLogo1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LoginScreenLogo1.Location = new System.Drawing.Point(98, 12);
             this.LoginScreenLogo1.Name = "LoginScreenLogo1";
-            this.LoginScreenLogo1.Size = new System.Drawing.Size(284, 151);
+            this.LoginScreenLogo1.Size = new System.Drawing.Size(274, 125);
             this.LoginScreenLogo1.TabIndex = 8;
             this.LoginScreenLogo1.TabStop = false;
             // 
