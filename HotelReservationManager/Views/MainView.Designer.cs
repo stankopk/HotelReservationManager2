@@ -42,9 +42,10 @@
             this.MainViewLogo1.BackColor = System.Drawing.Color.Transparent;
             this.MainViewLogo1.BackgroundImage = global::HotelReservationManager.Properties.Resources._1_MzL95bCDkBp81_A5W2Wggg_removebg_preview;
             this.MainViewLogo1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.MainViewLogo1.Location = new System.Drawing.Point(91, 12);
+            this.MainViewLogo1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainViewLogo1.Location = new System.Drawing.Point(100, -8);
             this.MainViewLogo1.Name = "MainViewLogo1";
-            this.MainViewLogo1.Size = new System.Drawing.Size(284, 151);
+            this.MainViewLogo1.Size = new System.Drawing.Size(274, 112);
             this.MainViewLogo1.TabIndex = 0;
             this.MainViewLogo1.TabStop = false;
             // 
@@ -53,7 +54,8 @@
             this.MainViewLogo2.BackColor = System.Drawing.Color.Transparent;
             this.MainViewLogo2.BackgroundImage = global::HotelReservationManager.Properties.Resources.images_removebg_preview;
             this.MainViewLogo2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.MainViewLogo2.Location = new System.Drawing.Point(75, 96);
+            this.MainViewLogo2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.MainViewLogo2.Location = new System.Drawing.Point(100, 96);
             this.MainViewLogo2.Name = "MainViewLogo2";
             this.MainViewLogo2.Size = new System.Drawing.Size(274, 102);
             this.MainViewLogo2.TabIndex = 1;
