@@ -28,5 +28,12 @@ namespace HotelReservationManager.View
             f2.Show();
             this.Hide();
         }
+
+        private void MainViewRegisterButton_Click(object sender, EventArgs e)
+        {
+            RegisterScreen f2 = new RegisterScreen();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

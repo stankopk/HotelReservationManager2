@@ -46,6 +46,7 @@
             this.LoginScreenRegisterButton.BackColor = System.Drawing.Color.Transparent;
             this.LoginScreenRegisterButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.LoginScreenRegisterButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoginScreenRegisterButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.LoginScreenRegisterButton.FlatAppearance.BorderColor = System.Drawing.Color.Orange;
             this.LoginScreenRegisterButton.FlatAppearance.BorderSize = 4;
             this.LoginScreenRegisterButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
@@ -90,6 +91,7 @@
             this.richTextBox2.Size = new System.Drawing.Size(255, 46);
             this.richTextBox2.TabIndex = 9;
             this.richTextBox2.Text = "";
+            this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // richTextBox1
             // 
@@ -100,6 +102,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(255, 46);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // pictureBox1
             // 
@@ -129,7 +132,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HotelReservationManager.Properties.Resources.pexels_nathan_cowley_2440856111;
+            this.BackgroundImage = global::HotelReservationManager.Properties.Resources.pexels_nathan_cowley_2440856;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.LoginScreenRegisterButton;
             this.ClientSize = new System.Drawing.Size(472, 512);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

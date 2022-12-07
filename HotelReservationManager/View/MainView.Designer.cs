@@ -95,6 +95,7 @@
             this.MainViewRegisterButton.TabIndex = 2;
             this.MainViewRegisterButton.Text = "REGISTER";
             this.MainViewRegisterButton.UseVisualStyleBackColor = false;
+            this.MainViewRegisterButton.Click += new System.EventHandler(this.MainViewRegisterButton_Click);
             // 
             // MainViewExitButton
             // 

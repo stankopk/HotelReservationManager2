@@ -21,5 +21,36 @@ namespace HotelReservationManager.View
         {
 
         }
+
+        private void checkBoxHidePass_CheckedChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+           
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            string Value = "";
+
+            int richTextlent = 1;
+
+            if (richTextBox1.Text.Length == richTextlent)
+            {
+                Value += richTextBox1.Text[0].ToString();
+                richTextBox1.Text = richTextBox1.Text.Remove(0, 1);
+                richTextBox1.Text += "*";
+
+            }
+            else
+            {
+                Value = "";
+                richTextBox1.Text = "";
+            }
+            richTextlent = richTextBox1.Text.Length + 1;
+        }
     }
 }
