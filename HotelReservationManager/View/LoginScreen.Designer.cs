@@ -33,8 +33,8 @@
             this.LoginScreenRegisterButton = new System.Windows.Forms.Button();
             this.LoginScreenReturnButton = new System.Windows.Forms.Button();
             this.LoginScreenLoginButton = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.txtBox1 = new System.Windows.Forms.RichTextBox();
+            this.txtBox2 = new System.Windows.Forms.RichTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo2)).BeginInit();
@@ -120,25 +120,25 @@
             this.LoginScreenLoginButton.Text = "LOGIN";
             this.LoginScreenLoginButton.UseVisualStyleBackColor = false;
             // 
-            // richTextBox1
+            // txtBox1
             // 
-            this.richTextBox1.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.ForeColor = System.Drawing.Color.Orange;
-            this.richTextBox1.Location = new System.Drawing.Point(120, 270);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(255, 46);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
+            this.txtBox1.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox1.ForeColor = System.Drawing.Color.Orange;
+            this.txtBox1.Location = new System.Drawing.Point(120, 270);
+            this.txtBox1.Name = "txtBox1";
+            this.txtBox1.Size = new System.Drawing.Size(255, 46);
+            this.txtBox1.TabIndex = 7;
+            this.txtBox1.Text = "";
             // 
-            // richTextBox2
+            // txtBox2
             // 
-            this.richTextBox2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.richTextBox2.Location = new System.Drawing.Point(120, 218);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(255, 46);
-            this.richTextBox2.TabIndex = 8;
-            this.richTextBox2.Text = "";
+            this.txtBox2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.txtBox2.Location = new System.Drawing.Point(120, 218);
+            this.txtBox2.Name = "txtBox2";
+            this.txtBox2.Size = new System.Drawing.Size(255, 46);
+            this.txtBox2.TabIndex = 8;
+            this.txtBox2.Text = "";
             // 
             // pictureBox1
             // 
@@ -173,8 +173,8 @@
             this.ClientSize = new System.Drawing.Size(472, 512);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.txtBox2);
+            this.Controls.Add(this.txtBox1);
             this.Controls.Add(this.LoginScreenLoginButton);
             this.Controls.Add(this.LoginScreenReturnButton);
             this.Controls.Add(this.LoginScreenRegisterButton);
@@ -182,7 +182,6 @@
             this.Controls.Add(this.LoginScreenLogo1);
             this.Name = "LoginScreen";
             this.Text = "LoginScreen";
-            this.Load += new System.EventHandler(this.LoginScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoginScreenLogo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -198,8 +197,8 @@
         private System.Windows.Forms.Button LoginScreenRegisterButton;
         private System.Windows.Forms.Button LoginScreenReturnButton;
         private System.Windows.Forms.Button LoginScreenLoginButton;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox txtBox1;
+        private System.Windows.Forms.RichTextBox txtBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
