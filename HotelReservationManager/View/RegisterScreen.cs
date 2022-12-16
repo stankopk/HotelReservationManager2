@@ -12,14 +12,24 @@ namespace HotelReservationManager.View
 {
     public partial class RegisterScreen : Form
     {
-        public RegisterScreen()
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            InitializeComponent();
-        }
+            string Value = "";
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
+            int richTextlent = 1;
 
+            if (richTextBox1.Text.Length == richTextlent)
+            {
+                Value += richTextBox1.Text[0].ToString();
+                richTextBox1.Text = richTextBox1.Text.Remove(0, 1);
+                richTextBox1.Text += "*";
+            }
+            else
+            {
+                Value = "";
+                richTextBox1.Text = "";
+            }
+            richTextlent = richTextBox1.Text.Length + 1;
         }
     }
 }
